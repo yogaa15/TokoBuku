@@ -1,0 +1,173 @@
+<!DOCYTPE html>
+<html>
+<head>
+  <title>Belajar CSS</title>
+  <style>
+.topbar {
+    background: black;
+    padding: 10px 30px;
+    text-align: right;
+}
+.topbar a {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+	font-size: 14px;
+}
+.topbar .regis {
+	background-color: deeppink;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 0.5rem;
+}
+.topbar .login {
+	background-color: dodgerblue;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 0.5rem;
+}
+.navbar
+{
+	background:orange;
+	margin: 0;
+	padding: 5px 30px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.title {
+font-size: 24px;
+margin: 20px;
+}
+
+.produk {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 20px;
+padding: 0 20px 40px 20px;
+}
+
+.produk2 {
+border: 1px solid;
+border-radius: 2rem;
+width: 150px;
+text-align: center;
+padding: 10px;
+}
+
+.produk2 img {
+width: 100px;
+height: 150px;
+}
+
+.produk2 p {
+margin: 5px 0;
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="..." class="regis">Registrasi</a>
+  <a href="..." class="login">Login</a>
+</div>
+<table width="100%" cellpadding="10">
+    <tr>
+      <td>
+<img src="logo.jpg" width="80" height="80" style="vertical-align: middle;">
+<span style="font-size: 25px; font-family:sans-serif; color: navy; font-weight: bold;">BOOKTOPIA</span>
+      </td>
+    </tr>
+  </table>
+  <hr>
+ <Nav class = "navbar">
+<Div class = "container">
+<UL class = "menu">
+<Li><a href = "..."> Home</a></Li>
+<li><a href="...">Buku</a></li>
+<li><a href="...">Majalah</a></li>
+<li><a href="...">Koran</a></li>
+</UL>
+</Div>
+</Nav>
+
+<hr>
+<h2 class="title">Buku Best Seller</h2>
+<div class="produk">
+    <div class="produk2">
+        <img src="pinokio.jpg">
+        <p>Pinokio</p>
+        <p><b>Rp100.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="ghost.jpg">
+        <p>Ghost</p>
+        <p><b>Rp125.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="sampam.jpg">
+        <p>Sam And Pam</p>
+        <p><b>Rp80.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="junglebook.jpg">
+        <p>The Jungle Book</p>
+        <p><b>Rp150.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="conan.jpg">
+        <p>Detektif Conan</p>
+        <p><b>Rp185.000</b></p>
+    </div>
+</div>
+
+<h2 class="title">Majalah Best Seller</h2>
+<div class="produk">
+    <div class="produk2">
+        <img src="bobo.jpg">
+        <p>Bobo</p>
+        <p><b>Rp15.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="otomotif.jpg">
+        <p>Otomotif</p>
+        <p><b>Rp25.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="kebaya.jpg">
+        <p>Kebaya Indonesia</p>
+        <p><b>Rp50.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="fortune.jpg">
+        <p>Fortune Indonesia</p>
+        <p><b>Rp100.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="tempo.jpg">
+        <p>Tempo</p>
+        <p><b>Rp35.000</b></p>
+    </div>
+</div>
+
+</body>
+</html>

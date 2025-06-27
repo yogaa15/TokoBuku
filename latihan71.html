@@ -1,0 +1,159 @@
+ <!DOCYTPE html>
+<html>
+<head>
+	<title>Majalah Anak</title>
+  <style>
+.navbar
+{
+	background:orange;
+	margin: 0;
+	padding: 5px 30px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+.menu li{
+	margin-right: 20px;
+	position: relative;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	top; 100%
+	left: 0;
+	background: orange;
+	padding: 10px;
+	margin: 0;
+	list-style: none;
+	min-width: 150px;
+	z-index:999;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+.menu li ul li{
+	position:relative;
+	margin-bottom: 10px;
+}
+
+.menu li ul li ul{
+	top:0;
+	left: 100%;
+}
+.title {
+font-size: 24px;
+margin: 20px;
+}
+
+.produk {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 5px;
+padding: 0;
+}
+
+.produk2 {
+border: 1px solid;
+border-radius: 1rem;
+width: 180px;
+text-align: center;
+padding: 10px;
+}
+
+.produk2 a {
+text-decoration: none;
+color: black;
+}
+
+.produk2 img {
+width: 150px;
+height: 200px;
+}
+
+.produk2 p {
+margin: 5px 0;
+}
+</style>
+</head>
+<body>
+
+ <Nav class = "navbar">
+<Div class = "container">
+<ul class = "menu">
+<Li><a href = "latihan31.html"> Home</a></Li>
+<li><a href="...">Buku</a><ul>
+<li><a href="...">NonFiksi</a><ul>
+	<li><a href="latihan32.html">Komputer</a></li>
+	<li><a href="latihan33.html">Agama</a></li>
+	<li><a href="latihan34.html">Sience</a></li>
+	</ul>
+</li>
+<li><a href="...">Fiksi</a><ul>
+	<li><a href="latihan53.html">Fantasi</a></li>
+	<li><a href="latihan54.html">Fiksi Ilmiah</a></li>
+	<li><a href="latihan55.html">Horor</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><a href="...">Majalah</a><ul>
+<li><a href="latihan71.html">Majalah Anak</a></li>
+<li><a href="latihan72.html">Majalah Pria</a></li>
+</ul>
+</li>
+<li><a href="latihan85.html">Koran</a></li>
+</ul>
+</Div>
+</Nav>
+
+<hr>
+<h2 class="title">Majalah Anak</h2>
+<div class="produk">
+    <div class="produk2">
+        <a href="latihan73.html"><img src="anak1.jpg"></a>
+        <a href="latihan73.html"><p>Majalah Bobo Cergam Terbaik (Cetak Ke 2)</p></a>
+        <p><b>Rp85.000</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan74.html"><img src="anak2.jpg"></a>
+        <a href="latihan74.html"><p>Bobo Edisi Koleksi Cerpen & Dongeng Batch 2</p></a>
+        <p><b>Rp75.000</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan75.html"><img src="anak3.jpg"></a>
+        <a href="latihan75.html"><p>Bobo Junior No.16</p></a>
+        <p><b>Rp17.500</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan76.html"><img src="anak4.jpg"></a>
+        <a href="latihan76.html"><p>Mombi SD 199</p></a>
+        <p><b>Rp17.500</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan77.html"><img src="anak5.jpg"></a>
+        <a href="latihan77.html"><p>National Geographic Kids Januari 2020</p></a>
+        <p><b>Rp30.000</b></p>
+    </div>
+</div>
+
+</body>
+</html>

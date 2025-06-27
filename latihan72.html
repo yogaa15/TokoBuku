@@ -1,0 +1,159 @@
+ <!DOCYTPE html>
+<html>
+<head>
+	<title>Majalah Pria</title>
+  <style>
+.navbar
+{
+	background:orange;
+	margin: 0;
+	padding: 5px 30px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+.menu li{
+	margin-right: 20px;
+	position: relative;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	top; 100%
+	left: 0;
+	background: orange;
+	padding: 10px;
+	margin: 0;
+	list-style: none;
+	min-width: 150px;
+	z-index:999;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+.menu li ul li{
+	position:relative;
+	margin-bottom: 10px;
+}
+
+.menu li ul li ul{
+	top:0;
+	left: 100%;
+}
+.title {
+font-size: 24px;
+margin: 20px;
+}
+
+.produk {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 5px;
+padding: 0;
+}
+
+.produk2 {
+border: 1px solid;
+border-radius: 1rem;
+width: 180px;
+text-align: center;
+padding: 10px;
+}
+
+.produk2 a {
+text-decoration: none;
+color: black;
+}
+
+.produk2 img {
+width: 150px;
+height: 200px;
+}
+
+.produk2 p {
+margin: 5px 0;
+}
+</style>
+</head>
+<body>
+
+ <Nav class = "navbar">
+<Div class = "container">
+<ul class = "menu">
+<Li><a href = "latihan31.html"> Home</a></Li>
+<li><a href="...">Buku</a><ul>
+<li><a href="...">NonFiksi</a><ul>
+	<li><a href="latihan32.html">Komputer</a></li>
+	<li><a href="latihan33.html">Agama</a></li>
+	<li><a href="latihan34.html">Sience</a></li>
+	</ul>
+</li>
+<li><a href="...">Fiksi</a><ul>
+	<li><a href="latihan53.html">Fantasi</a></li>
+	<li><a href="latihan54.html">Fiksi Ilmiah</a></li>
+	<li><a href="latihan55.html">Horor</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><a href="...">Majalah</a><ul>
+<li><a href="latihan71.html">Majalah Anak</a></li>
+<li><a href="latihan72.html">Majalah Pria</a></li>
+</ul>
+</li>
+<li><a href="latihan85.html">Koran</a></li>
+</ul>
+</Div>
+</Nav>
+
+<hr>
+<h2 class="title">Majalah Pria</h2>
+<div class="produk">
+    <div class="produk2">
+        <a href="latihan78.html"><img src="pria1.jpg"></a>
+        <a href="latihan78.html"><p>Otomotif 45 (Edisi 14 Maret - 20 Maret 2024)</p></a>
+        <p><b>Rp14.000</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan79.html"><img src="pria2.jpg"></a>
+        <a href="latihan79.html"><p>Otomotif 38 (Edisi 25 Januari - 31 Januari 2024)</p></a>
+        <p><b>Rp14.000</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan80.html"><img src="pria3.jpg"></a>
+        <a href="latihan80.html"><p>Asri 5</p></a>
+        <p><b>Rp79.000</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan81.html"><img src="pria4.jpg"></a>
+        <a href="latihan81.html"><p>Swa 13</p></a>
+        <p><b>Rp49.500</b></p>
+    </div>
+    <div class="produk2">
+        <a href="latihan82.html"><img src="pria5.jpg"></a>
+        <a href="latihan82.html"><p>Swa 14</p></a>
+        <p><b>Rp49.500</b></p>
+    </div>
+</div>
+
+</body>
+</html>
